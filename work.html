@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./work.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="description"
+        content="Simple masonry filter : Inspired by multiple-filter-masonry, extends the masonry plugin by David DeSandro adding the ability to filter items via a callback filter method." />
+
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+
+
+
+    <title>Document</title>
+</head>
+
+<body class="font-text">
+    <header class="header">
+        <nav>
+            <label id="tong" for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+            <ul class="nav-links">
+
+                <li><a href="index.html" class="nav-link"><img src="./images/logo.png" class="logo" alt="logo" /></a>
+                </li>
+
+                <li><a href="./about.html" class="nav-link">About</a></li>
+                <li><a href="./work.html" class="nav-link">Works</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner container">
+                <div class="btn-toolbar filters">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label data-filter="" class="btn btn-primary active">
+                            <input type="radio" name="options" id="option1"> All
+                        </label>
+                        <label data-filter="one" class="btn btn-primary">
+                            <input type="radio" name="options" id="option1"> One
+                        </label>
+                        <label data-filter="two" class="btn btn-primary">
+                            <input type="radio" name="options" id="option2"> Two
+                        </label>
+                        <label data-filter="three" class="btn btn-primary">
+                            <input type="radio" name="options" id="option3"> Three
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="masonry">
+                        <div data-filter="one" class="card-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+                            <h4>Drum Kit</h4>
+                            <div class="card hovereffect">
+
+                                <img class="img-thumbnail img-responsive" src="./images/Drumkit.PNG">
+                                <div class="overlay">
+                                    <a style="text-decoration: none;"
+                                        href="https://divyeshrana9775.github.io/Drum-Kit/">
+                                        <h2>Drum-Kit</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-filter="two" class="card-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+                            <div class="card">
+                                <h4>Lorem Ipsum</h4>
+                                <img class="img-thumbnail img-responsive"
+                                    src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                                <p>
+                                    Quisque in ante a dolor interdum hendrerit. Vestibulum eu ipsum at ligula bibendum
+                                    rutrum. Suspendisse faucibus pulvinar nibh, at iaculis eros venenatis ac.
+                                </p>
+                            </div>
+                        </div>
+                        <div data-filter="two" class="card-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+                            <div class="card">
+                                <img class="img-thumbnail img-responsive"
+                                    src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                                <p>
+                                    Quisque in ante a dolor interdum hendrerit. Vestibulum eu ipsum at ligula bibendum
+                                    rutrum. Suspendisse faucibus pulvinar nibh, at iaculis eros venenatis ac.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div data-filter="one" class="card-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+                            <h4>Update CSS Variables with JS</h4>
+                            <div class="card hovereffect">
+
+                                <img class="img-thumbnail img-responsive" src="./images/variableswithjs.PNG">
+                                <div class="overlay">
+                                    <a style="text-decoration: none;"
+                                        href="https://divyeshrana9775.github.io/CSSvariableandJS/">
+                                        <h2>Update CSS Variables with JS</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-filter="one" class="card-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+                            <h4>Flex Panels Image Gallery</h4>
+                            <div class="card hovereffect">
+
+                                <img class="img-thumbnail img-responsive" src="./images/flex.PNG">
+                                <div class="overlay">
+                                    <a style="text-decoration: none;"
+                                        href="https://divyeshrana9775.github.io/Flex-Panels-Image-Gallery/">
+                                        <h2>Flex Panels Image Gallery</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-filter="two" class="card-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+                            <div class="card">
+                                <img class="img-thumbnail img-responsive"
+                                    src="https://www.imagesgoodnight.com/wp-content/uploads/2019/01/Sad-Alone-Images-5-271x300.jpg">
+                                <p>
+                                    Quisque in ante a dolor interdum hendrerit. Vestibulum eu ipsum at ligula bibendum
+                                    rutrum. Suspendisse faucibus pulvinar nibh, at iaculis eros venenatis ac.
+                                </p>
+                            </div>
+                        </div>
+                        <div data-filter="two" class="card-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+                            <div class="card">
+                                <img class="img-thumbnail img-responsive"
+                                    src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/10/25/16/Autumn2018-32.jpg">
+                                <p>
+                                    Quisque in ante a dolor interdum hendrerit. Vestibulum eu ipsum at ligula bibendum
+                                    rutrum. Suspendisse faucibus pulvinar nibh, at iaculis eros venenatis ac.
+                                </p>
+                            </div>
+                        </div>
+                        <div data-filter="one" class="card-container col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+                            <h4>Mouse Move effect</h4>
+                            <div class="card hovereffect">
+
+                                <img class="img-thumbnail img-responsive" src="./images/mousemove.PNG">
+                                <div class="overlay">
+                                    <a style="text-decoration: none;"
+                                        href="https://divyeshrana9775.github.io/Mouse-Move-effect/">
+                                        <h2>Mouse Move effect</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+
+        <img class="big-circle" src="./images/big-eclipse.svg" alt="">
+        <img class="medium-circle" src="./images/mid-eclipse.svg" alt="">
+        <img class="small-circle" src="./images/mid-eclipse.svg" alt="">
+    </main>
+    <footer>
+
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascripts/imagesloaded.js"></script>
+    <script type="text/javascript" src="javascripts/masonry-3.1.4.js"></script>
+    <script type="text/javascript" src="javascripts/masonry.filter.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var self = $("#masonry");
+
+            self.imagesLoaded(function () {
+                self.masonry({
+                    gutterWidth: 15,
+                    isAnimated: true,
+                    itemSelector: ".card-container"
+                });
+            });
+
+            $(".filters .btn").click(function (e) {
+                e.preventDefault();
+
+                var filter = $(this).attr("data-filter");
+
+                self.masonryFilter({
+                    filter: function () {
+                        if (!filter) return true;
+                        return $(this).attr("data-filter") == filter;
+                    }
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
